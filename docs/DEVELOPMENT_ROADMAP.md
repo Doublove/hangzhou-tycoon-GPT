@@ -1155,7 +1155,7 @@ export interface ActionResult<T = unknown> {
 
 | 编号 | 事项 | 建议处理时机 | 状态 |
 |---|---|---|---|
-| D-01 | Cocos Creator 3.8 具体补丁版本 | 阶段 0 | 待确认 |
+| D-01 | Cocos Creator 具体补丁版本 | 阶段 0 | **已确认：3.8.8** |
 | D-02 | Node.js 与自动化工具版本 | 阶段 0 | 待确认 |
 | D-03 | 纯逻辑单元测试框架 | 阶段 0/1 | 待评估 |
 | D-04 | 第一章首批地图和地块数据冻结 | 阶段 1 | 待确认 |
@@ -1189,15 +1189,16 @@ export interface ActionResult<T = unknown> {
 - 仓库：`Doublove/hangzhou-tycoon-GPT`
 - 默认分支：`main`
 - 当前工程状态：新仓库，初始仅有 README。
+- Cocos Creator：用户已安装 **3.8.8**。
 - Cocos 工程：尚未初始化。
-- 当前开发阶段：阶段 0。
+- 当前开发阶段：阶段 0，正在执行 T0-01。
 - 本路线文档：V1.0。
 
 ## 28. 阶段进度
 
 ### 阶段 0 — 工程初始化与基础架构
 
-- [ ] T0-01 确认开发环境
+- [~] T0-01 确认开发环境（Cocos Creator 3.8.8 已确认；Node.js、Git 与编辑器运行验证待检查）
 - [ ] T0-02 初始化 Cocos Creator 工程
 - [ ] T0-03 建立目录结构
 - [ ] T0-04 建立代码规范
@@ -1235,7 +1236,7 @@ export interface ActionResult<T = unknown> {
 
 本仓库当前从空项目开始，第一次开发建议严格按以下顺序执行：
 
-1. **先确认本地 Cocos Creator 3.8.x 具体版本。**
+1. **已确认本地 Cocos Creator 版本为 3.8.8。**
 2. 克隆仓库到本地。
 3. 使用 Cocos Creator 在仓库根目录创建 2D 工程。
 4. 在编辑器中运行默认场景，确认工程可用。
